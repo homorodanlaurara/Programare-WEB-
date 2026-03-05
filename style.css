@@ -1,30 +1,52 @@
 body {
-    background-color: #fff0f5; /* roz foarte deschis */
+    background-color: #fff0f5;
     font-family: 'Segoe UI', Arial, sans-serif;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    padding: 40px;
     margin: 0;
-    color: #d81b60; /* roz inchis pentru text */
+    color: #880e4f;
 }
 
 .container {
     background: white;
+    max-width: 700px;
+    width: 100%;
     padding: 40px;
     border-radius: 20px;
-    border: 2px solid #f8bbd0; /* bordura roz pal */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    border: 2px solid #f8bbd0;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+header {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 h1 {
-    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #d81b60;
+}
+
+h2 {
     border-bottom: 2px solid #f8bbd0;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    margin-top: 25px;
 }
 
 p {
-    font-size: 18px;
-    margin: 10px 0;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin: 6px 0;
 }
